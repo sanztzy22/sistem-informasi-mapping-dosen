@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/assets/img/pepek.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+.register-container {
+    background-color: rgba(0, 0, 51, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.register-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-container p {
+    font-size: 12px;
+}
+a {
+    color: red;
+}
+.gender-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0;
+}
+
+.gender-container p {
+margin-right: 10px; /* Spacing between the label and the radio buttons */
+}
+
+.gender-container label {
+margin: 0 10px; /* Spacing between each radio button */
+color: white; /* Ensures the text is visible */
+}

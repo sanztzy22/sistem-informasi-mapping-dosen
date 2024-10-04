@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/assets/img/pepek.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.login-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container .social-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.login-container .social-buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-container .social-buttons .facebook {
+    background-color: #3b5998;
+}
+.login-container .social-buttons .google {
+    background-color: #db4437;
+}
+.login-container .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+a {
+    color: red;
+}
